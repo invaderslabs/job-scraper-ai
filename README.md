@@ -29,8 +29,8 @@ Follow the steps below to set up and run the project:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/job-scraper.git
-    cd job-scraper
+    git clone https://github.com/invaderslabs/job-scraper-ai.git
+    cd job-scraper-ai
     ```
 
 2. **Create and activate a virtual environment (optional)**:
@@ -60,7 +60,7 @@ Follow the steps below to set up and run the project:
     - Create a file named `socks` in the `content/` directory.
     - Add one proxy per line in the following format:
 
-    ```
+    ```plaintext
     socks5://username:password@proxy_address:port
     ```
 
@@ -81,7 +81,7 @@ Follow the steps below to set up and run the project:
 6. **Run the script**:
 
     ```bash
-    python job_scraper.py
+    python3 job_scraper.py
     ```
 
 ## Usage
@@ -140,10 +140,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-For issues, suggestions, or contributions, reach out via:
-
-- Email: your.email@example.com
-- GitHub Issues: [GitHub Issues](https://github.com/yourusername/job-scraper/issues)
